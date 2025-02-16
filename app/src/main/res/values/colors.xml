@@ -1,0 +1,26 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- Basic Colors -->
+    <color name="transparent">#00000000</color>
+
+    <!-- Element Category Colors -->
+    <color name="hydrogen_color">#055780</color> <!-- Light Blue -->
+    <color name="alkali_metal_color">#FF66CCFF</color> <!-- Light Red -->
+    <color name="alkaline_earth_metal_color">#FFFFCC66</color> <!-- Light Orange -->
+    <color name="transition_metal_color">#FFFF6666</color> <!-- Light Red -->
+    <color name="post_transition_metal_color">#FFCCCCCC</color> <!-- Light Gray -->
+    <color name="metalloid_color">#FF66CC66</color> <!-- Light Green -->
+    <color name="nonmetal_color">#FF66CCCC</color> <!-- Light Cyan -->
+    <color name="halogen_color">#FFCC66FF</color> <!-- Light Purple -->
+    <color name="noble_gas_color">#207605</color> <!-- Green -->
+    <color name="lanthanide_color">#FFFF99CC</color> <!-- Light Pink -->
+    <color name="actinide_color">#E636B1</color> <!-- Pink -->
+
+    <color name="black_overlay">#80000000</color> <!-- Black -->
+    <color name="custom_actionbar">#512DA8</color> <!-- Black -->
+    <!-- Define the color for metal elements -->
+    <color name="metal_color">#B0B0B0</color> <!-- This is just an example color -->
+
+    <!-- Define the color for text elements -->
+    <color name="text_color">#FFFFFF</color> <!-- This is a white color for text -->
+</resources>

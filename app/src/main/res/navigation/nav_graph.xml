@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/periodicTable">
+
+    <fragment
+        android:id="@+id/periodicTable"
+        android:name="com.example.periodictable.PeriodicTable"
+        android:label="fragment_periodic_table"
+        tools:layout="@layout/fragment_periodic_table" >
+        <action
+            android:id="@+id/action_periodicTable_to_elementDetails"
+            app:destination="@id/elementDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/elementDetails"
+        android:name="com.example.periodictable.ElementDetails"
+        android:label="fragment_element_details"
+        tools:layout="@layout/fragment_element_details" >
+        <argument
+            android:name="element"
+            app:argType="com.example.periodictable.Element"/>
+    </fragment>
+</navigation>
